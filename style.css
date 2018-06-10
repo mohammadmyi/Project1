@@ -1,0 +1,167 @@
+body{
+	background-color:#737373;
+	overflow-x: hidden;
+}
+
+.avali{
+	background-color: #737373;
+}
+.navbar{
+	background-color: #ffffff;
+	transition: .6s;
+	height: 5em;
+}
+.navbar a {
+	color:green;
+}
+.dropdown-toggle{
+transition:1s;
+}
+.carousel-item{
+	height:100%;
+	width: 100%;
+}
+.carousel-item img{
+	height: 45em;
+	width: 100%;
+}
+.second-row{
+	padding-top: 1.65em;
+}
+footer{
+	color: #fff;
+	background-color: #121212;
+}
+@keyframes anim{
+	0%{transform:rotate(0deg);background-color: red; left: 0px; top:0px;}
+	9%{transform:rotate(33deg);background-color: blue; left: 20%; top:0px;}
+	18%{transform:rotate(66deg);background-color: yellow; left: 40%; top:0px;}
+	27%{transform:rotate(99deg);background-color: red; left: 60%; top:0px;}
+	36%{transform:rotate(132deg);background-color: blue; left: 80%; top:0px;}
+	45%{transform:rotate(165deg);background-color: yellow; left: 100%; top:0px;}
+	54%{transform:rotate(198deg);background-color: red; left: 80%; top:0px;}
+	63%{transform:rotate(231deg);background-color: blue; left: 60%; top:0px;}
+	72%{transform:rotate(264deg);background-color: yellow; left:40%; top:0px;}
+	81%{transform:rotate(297deg);background-color: red; left:20%; top:0px;}
+	90%{transform:rotate(330deg);background-color: blue; left:0px; top:0px;}
+	100%{transform:rotate(360deg);background-color: red; left:0px; top:0px;}
+
+}
+.animation{
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 10px;
+	padding: 5px 1px;
+	width: 50px;
+	height: 45px;
+	text-align: center;
+	background-color: #fffeee22;
+	animation-name:anim;
+	animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-delay: .2s;
+    animation-iteration-count: infinite;
+    animation-direction: forwards;
+    animation-play-state: running;
+    position: relative;
+}
+@keyframes anim1{
+	0%{transform:rotate(0deg);}
+	25%{transform:rotate(5deg);}
+	25%{transform:rotate(10deg);}
+	25%{transform:rotate(15deg);}	
+	50%{transform:rotate(-5deg);}
+	75%{transform:rotate(-10deg);}
+	100%{transform:rotate(-15deg);}	
+}
+.fa-phone ,.fa-envelope-o,.fa-clock-o{
+	animation-name:anim1;
+	animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+    animation-direction: forwards;
+    animation-play-state: running;
+    position: relative;
+
+}
+.rowslide1 .img-fluid,.rowslide2 .img-fluid{
+	width: 100%;
+	height: 11em;
+   
+}
+#slide1,#slide2{
+	cursor: pointer;
+}
+
+
+@keyframes anim2{
+	0%{transform:translateY(-.5rem);background-color: red;}
+	25%{transform:translateY(1rem);background-color: blue;}
+	50%{transform:translateY(1.5rem);background-color: yellow;}
+    75%{transform:translateY(-.25rem);background-color: rgb(255, 0, 212);}
+	100%{transform:translateY(-.5rem);background-color: green;display: none;}
+		
+
+
+}
+.iconanimate{
+	animation-name:anim2;
+	animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+    animation-direction: forwards;
+    animation-play-state: running;
+    position: relative;
+
+}
+
+
+@keyframes anim3{
+	0%{font-size: .5em;color: #f17a0bf1; }
+	25%{font-size: 1.25em;color: #2b0bdffb;}
+	50%{font-size: 1.5em;color: #0ae22eea;}
+	75%{font-size: -.25em;color: #b41034d8;}
+    85%{font-size: -.5em;color: #13cece;}
+	100%{font-size: -1em;color: #da570cfa;}
+}
+.fa-dashcube,.fa-leaf,.fa-assistive-listening-systems,.fa-ravelry{
+	animation-name:anim3;
+	animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    position: absolute;
+}
+
+.btn-f{
+	width: 30%;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+
+}
+.dropdown-menu{
+	opacity: .88;
+	margin-top: .05em;
+}
+.paien{
+	background-color: #35050dea;
+	height: 60px;
+	opacity: .95;
+}
+.paien1{
+	background-color: #35050dea;
+	opacity: 1;	
+}
+
+.txt-plugin div{
+	font-size: 1.8em;
+}
+
+ #js-flipping,#js-rotating{
+	 color: #0ae22eea;
+ }
